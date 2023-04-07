@@ -25,3 +25,5 @@ sudo apt-get install -y kubectl
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update -y
 sudo apt-get install -y git
+
+snap install terraform --classic
