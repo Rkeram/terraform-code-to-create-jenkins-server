@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "primuslearning-app"
-    region = "us-east-1"
-    key = "jenkins-server/terraform.tfstate"
+    bucket         = "rks1932"
+    key            = "terraform.tfstate"
+    region         = "ap-northeast-1"
   }
 }
